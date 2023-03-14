@@ -1,0 +1,17 @@
+# (local) Configuration files
+.env
+.env.*
+!.env.example
+
+# Generated code
+theme/js/*.min.js
+theme/style.css
+theme/style-editor.css
+fiveten.zip
+
+# Third party code
+node_modules
+vendor
+
+# Misc files
+.DS_Store

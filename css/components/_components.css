@@ -1,0 +1,31 @@
+/**
+	Development Utility to highlight components in use
+
+	Use an attribute on a components' host-element with a name
+
+	@example: <div data-dev-component-name="example container">...</div>
+*/
+[data-dev-component-name] {
+	position: relative;
+	outline: 1px dashed hotpink;
+}
+[data-dev-component-name] [data-dev-component-name] {
+	outline-color: green;
+}
+[data-dev-component-name]::before {
+	content: attr(data-dev-component-name);
+	position: absolute;
+	top: -0.75rem;
+	left: 50%;
+	transform: translateX(-50%);
+	padding: 0.25rem;
+	font: 1rem / 1 monospace;
+	background-color: hotpink;
+	outline: 1px dashed black;
+	opacity: 0.6;
+}
+[data-dev-component-name]:hover::before,
+[data-dev-component-name]:focus-within::before,
+[data-dev-component-name]:focus::before {
+	opacity: 1;
+}

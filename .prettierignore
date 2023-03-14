@@ -1,0 +1,15 @@
+# Ignore all files:
+*
+
+# Negate the above pattern for files that should be formatted automatically
+!*.css
+!*.js
+!*.json
+!*.md
+!*.html
+
+# Don't format generated code
+package-lock.json
+theme/style.css
+theme/style-editor.css
+*.min.js

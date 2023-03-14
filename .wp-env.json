@@ -1,0 +1,17 @@
+{
+	"core": "https://wordpress.org/latest.zip",
+	"phpVersion": "8.0",
+	"config": {
+		"WP_DEBUG": true,
+		"WP_DEBUG_LOG": true,
+		"SCRIPT_DEBUG": true
+	},
+	"plugins": [
+		"https://downloads.wordpress.org/plugin/health-check.zip",
+		"https://downloads.wordpress.org/plugin/theme-check.zip",
+		"https://downloads.wordpress.org/plugin/debug-bar.zip",
+		"https://downloads.wordpress.org/plugin/log-deprecated-notices.zip",
+		"https://downloads.wordpress.org/plugin/classic-editor.zip"
+	],
+	"themes": ["./theme"]
+}

@@ -1,0 +1,20 @@
+/*
+	Colors, values, names, variables
+*/
+:host {
+	/*
+		Named colors:
+	*/
+	--color-red: red;
+	--color-green: green;
+	--color-blue: blue;
+	--color-black: black;
+	--color-grey: grey;
+	--color-white: white;
+
+	/*
+		Functional colors:
+	*/
+	--color-background: var(--color-white, white);
+	--color-text: var(--color-black, #333);
+}

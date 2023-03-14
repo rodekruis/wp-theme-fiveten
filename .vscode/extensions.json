@@ -1,0 +1,14 @@
+{
+	"recommendations": [
+		"anteprimorac.html-end-tag-labels",
+		"ban.spellright",
+		"davidanson.vscode-markdownlint",
+		"dbaeumer.vscode-eslint",
+		"editorconfig.editorconfig",
+		"esbenp.prettier-vscode",
+		"redhat.vscode-yaml",
+		"tombonnike.vscode-status-bar-format-toggle",
+		"whtouche.vscode-js-console-utils",
+		"wordpresstoolbox.wordpress-toolbox",
+	]
+}

@@ -1,0 +1,15 @@
+@import "./inc/_file-header.css";
+/* This 👆 injects the WordPress theme file header. It needs to be first. */
+
+@import "./inc/_colors.css";
+@import "./inc/_fonts.css";
+@import "./inc/_normalize.css";
+@import "./inc/_base.css";
+
+/* Component Styles */
+@import "./components/_components.css";
+/* @import "./components/_component-example.css"; */
+
+@import "./inc/_print.css";
+
+@import "./inc/_utilities.css";
